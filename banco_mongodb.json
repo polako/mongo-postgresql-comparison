@@ -1,0 +1,27 @@
+{
+    "publicacao": {
+        "titulo": "texto",
+        "datapub": "data",
+        "conteudo": "texto",
+        "tipo": "texto",
+        "usuario": {
+            "nome": "texto",
+            "senha": "texto",
+            "datanascimento": "data",
+            "sobre": "texto",
+            "ativo": "bool",
+            "grupo": {
+                "nome": "texto",
+                "ativo": "bool"
+            }
+        },
+        "comentario": [
+            {
+                "nome": "texto",
+                "email": "texto",
+                "datapub": "data",
+                "conteudo": "texto"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+Python and Postgres
+
+COMPARACAO: http://docs.mongodb.org/manual/reference/sql-comparison/
+
+POSTGRESQL 
+http://www.postgresql.org/docs/9.1/static/index.html
+criar usuario: 
+    sudo su - postgres
+    createuser -P
+    ...
+
+LOCAL: /etc/postgresql/VERSAO/main      
+pg_hba.conf = mudar pra TRUST (sem autenticacao) #md5, password, etc...
+schema.tabela
+
+TIMER
+http://docs.python.org/2/library/timeit.html
+
+DRIVER POSTGRE: psycopg.
+http://initd.org/psycopg/docs/index.html
+
+install: sudo apt-get install python-psycopg2
+
+----------------------------------------
+
+MONGO
+INSTALACAO: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+
+DRIVER MONGO-PYTHON - PYMONGO:  http://api.mongodb.org/python/current/index.html
+INSTALAÇÃO: http://api.mongodb.org/python/current/installation.html
+
+data files: /var/lib/mongo
+log files: /var/log/mongo
+usuarios devem ser alterados em ambos os arquivos
+
+start: sudo service mongodb start
+stop: sudo service mongodb stop
+restart: sudo service mongodb restart
